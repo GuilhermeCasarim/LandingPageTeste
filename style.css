@@ -1,0 +1,114 @@
+html,
+body {
+    height: 100%;
+}
+
+
+#inicio {
+    height: 60px;
+}
+
+#inicio a {
+    margin: 0 20px;
+}
+
+.box {
+    padding: 60px;
+    margin-top: 40px;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+footer a{
+    margin: 0 10px;
+}
+
+/* .footer1 a i{
+   line-height: 1;
+   vertical-align: middle;
+} */
+
+p a{
+    color: rgba(0, 0, 0, .5);
+}
+
+p a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+
+}
+
+.rowTeste{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* /// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #sect1 {
+        margin-left: 50px;
+    }
+
+    #btnMenu {
+        margin: 15px 0;
+    }
+
+    #sect1 h4{
+        font-size: 1em;
+    }
+    #sect1 h2{
+        font-size: 1.3em;
+    }
+    #sect1 p{
+        font-size: 0.9em;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #sect1 {
+        margin-left: 50px;
+    }
+
+    #btnMenu {
+        margin: 10px 0;
+    }
+
+    #sect1 h4{
+        font-size: 1.1em;
+    }
+    #sect1 h2{
+        font-size: 1.4em;
+    }
+    #sect1 p{
+        font-size: 1em;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        border-bottom: 1px solid #ccc;
+    }
+
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    header {
+        border-bottom: 1px solid #ccc;
+    }
+}
